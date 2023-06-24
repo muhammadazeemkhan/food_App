@@ -1,0 +1,166 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav .navbar-brand{
+    color: white;
+}
+nav ul li a{
+    color: white !important;
+}
+.container-fluid{
+    /* background-color: #ffa200; */
+    /* background-color: #00abbd; */
+    /* background-color: #0036ad   ; */
+    /* background-color:#a14ddf; */
+    background-color: #93C54B;
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    margin: 0;
+    
+}
+h1{
+    font-size: 80px !important;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}   
+/* #foodItemsContainer{ */
+    /* margin-top: 150px !important; */
+
+.card-body > a > i{
+    color: red;
+}
+.carousel-slide{
+    background-color:#a14ddf;
+}
+.carousel-item >img{
+    height: 400px;
+    width: 100%;
+}
+
+span > a > i {
+    margin-right: 10px;
+    color:white;
+    font-size: 30px;
+    padding: 20px;
+}
+button{
+    /* background-color:#a14ddf !important; */
+    /* margin-top: 80px !important; */
+    background-color: #93C54B !important;
+    
+}
+.socialMediaContainer{
+    /* background-color:#a14ddf !important; */
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    background-color: #93C54B;
+
+    
+}
+.socialMediaContainer p {
+    margin-top: 25px !important;
+    font-size: 20px;
+    
+}
+span  a  i:hover{
+    transform: scale(1.5);
+    transition: ease all 0.5s;
+} 
+.fa-twitter:hover{
+    color:  #1DA1F2;
+}
+.fa-facebook:hover{
+    color: 	#4267B2;
+
+}
+.fa-youtube:hover{
+    color: #FF0000;
+}
+
+
+/* .plusMinusDiv{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+} */
+
+.card{
+    margin: 20px !important;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px; */
+    /* border-radius: 50px; */
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    height: 25rem !important;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: ease all 0.5s;
+}
+
+.plusMinusDiv:hover{
+    background-color: #ccc;
+}
+
+.img-style {
+    height: 200px !important;
+}
+
+.cartCard{
+    height: 130px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+
+
+#carouselExampleIndicators{
+    margin-left: 40vh;
+    max-width: 100vh;
+    max-height: 50vh;
+    background-color: none;
+}
+
+@media screen and (max-width:600px){
+    .socialMediaContainer{
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        margin-top: 5px;
+        /* padding-left: 20px !important; */
+    }
+    .socialMediaContainer p{
+        font-size: 15px;
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    span > a > i{
+        font-size: 20px;
+        padding-top: 5px;
+        margin-left: 25px;
+    }
+    .cardContainer{
+        margin-right: 60px;
+    }
+    /* .card{
+        width: 25rem !important;
+    } */
+
+}
